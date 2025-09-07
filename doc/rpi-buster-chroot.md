@@ -25,15 +25,15 @@
 - `Command: n`   [add new partition]
 - `Command: p`   [primary partition]
 - `Command: 2`   [partition number]
-- `Command:    ` [enter start value from first step]
-- `Command:    ` [press enter to accept default value]
+- `Command:  `   [enter start value from first step]
+- `Command:  `   [press enter to accept default value]
 - `Command: N`   [to *NOT* remove the ext4 signature]
 - `Command: w`   [write table to file]
 
 # Create a mount point
 - `mkdir os-mount`
 
-# Mount both disk imagen partitions via loopback
+# Mount both disk image partitions via loopback
 - `sudo kpartx -a -v 2023-05-03-raspios-buster-armhf-lite.img`
 
 output, note device names:
