@@ -61,7 +61,8 @@ add map loop4p2 (253:1): 0 33021952 linear 7:4 532480  <== THIS IS OUR ACTUAL OS
 - `exit`
 
 # Enter the chroot
-- `sudo chroot ./os-mount`
+- `sudo chroot ./os-mount /usr/bin/qemu-arm-static /usr/bin/bash`
+> If you get an error about /usr/bin/bash not found, try /bin/bash instead
 
 # Shutdown
 - `sudo umount ./os-mount/dev`
