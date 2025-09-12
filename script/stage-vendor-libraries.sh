@@ -40,7 +40,7 @@ elif [[ "$PLATFORM" == 'Linux' ]]; then
     cp vendor/bin/lib/libssl.so.3 ./bin/lib 2> /dev/null
     cp vendor/bin/lib/libcrypto.so.1.1 ./bin/lib 2> /dev/null
     cp vendor/bin/lib/libssl.so.1.1 ./bin/lib 2> /dev/null
-    cp vendor/bin/lib/libcurl.so.5 ./bin/lib
+    cp vendor/bin/lib/libcurl.so.4 ./bin/lib
     cp vendor/bin/lib/libmp3lame.so.0 ./bin/lib
     cp vendor/bin/lib/libmicrohttpd.so.12 ./bin/lib
     cp vendor/bin/lib/libopenmpt.so.5 ./bin/lib
